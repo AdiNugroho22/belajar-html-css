@@ -1,0 +1,81 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.header {
+    background-color: brown;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+}
+
+.header-title {
+    color: aliceblue;
+    font-size: 3em;
+    font-weight: bold;
+    text-decoration:none;
+}
+
+.header:hover{
+    background-color: aqua;
+}
+
+**.judul {
+    background-color: grey;
+    display: flex;
+    padding: 5px;
+    justify-content: center;
+    margin-top: 10px;;
+    font-size: 20px;
+    color: aquamarine;
+}**
+
+.konten{
+    max-width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.konten-credit {
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.penulis {
+    color: crimson;
+}
+
+.tanggal{
+    color: red;
+}
+
+
+/*Halaman utama container*/
+.container{
+    border: 1px solid;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.box-preview{
+    margin: 20px;
+    background-color: antiquewhite;
+    padding: 10px;
+    width: 300px;   
+}
+
+.box-preview-judul {
+    font-size: 1.2em;
+    height: 50px;
+    font-weight: bold;
+}
+
+.box-preview-credit{
+    font-style: oblique;
+}
+
+.box-preview:hover{
+    background-color: white;
+}
